@@ -65,7 +65,11 @@ Após preencher os dados, pressione o botão "Iniciar e aguarde a execução em 
 
 Os resultados podem ser encontrados na pasta definida como saída. O arquivo gerado é uma cópia do arquivo original, com uma nova coluna referente ao valor calculado como intensidade de sentimento. Um exemplo de arquivos gerados pode ser visto na simagens abaixo:
 
+Exemplo de saída de dados:
+
 ![Imagem demonstrando um exemplo de saída de dados](https://github.com/vitorsgoncalves/tcc-profnit/blob/main/produto/imagens/resultado.png?raw=true "Exemplo de arquivo de saída")
+
+Exemplo do segundo arquivo de saída, com os números de comentários de cada tipo e as médias calculadas para cada arquivo de entrada:
 
 ![Exemplo do segundo arquivo de saída, com os números de comentários de cada tipo e as médias calculadas para cada arquivo de entrada](https://github.com/vitorsgoncalves/tcc-profnit/blob/main/produto/imagens/resultado2.png?raw=true "Exemplo do segundo arquivo de saída, com os números de comentários de cada tipo e as médias calculadas para cada arquivo de entrada")
 
