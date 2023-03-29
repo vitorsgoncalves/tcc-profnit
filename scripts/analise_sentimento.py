@@ -1,3 +1,11 @@
+
+# Este script realiza a análise de sentimento dos dados previamente processados e organizados em arquivos CSV, um arquivo para cada mês
+# A anlálise de sentimento é realizada utilizando a metodologia VADER, por meio da biblioteca NLTK
+# Como entrada, são passados os argumentos do caminho para os arquivos CSV e das palavras-chave desejadas
+# Como saída, é pessado o diretório para gravar os resultados no formato CSV
+# Os arquivos de saída são constituídos de 1 arquivo CSV para cada arquivo de entrada e de um arquivo adicional, com a média dos resultados.
+
+
 import csv
 import datetime
 import os
