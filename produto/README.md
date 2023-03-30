@@ -27,11 +27,11 @@ Caso utilize um sistema diferente, ou o procedimento acima não funcione, siga a
 
 1. Baixe ou clone o repositório do software a partir do comando:  
 
-	` git clone (colocar url)` 
+	` git clone https://github.com/vitorsgoncalves/tcc-profnit` 
 
 2. Entre no diretório do software:
 
-	` cd (colocar caminho)` 
+	` cd tcc-profnit/produto` 
 
 3. Instale os pacotes Python necessários usando o comando 
 
@@ -39,7 +39,7 @@ Caso utilize um sistema diferente, ou o procedimento acima não funcione, siga a
 
 4. Execute o software a partir do comando abaixo:
 
-	`python (nome final)`
+	`python analise_sentimento.py`
 
 ### Execução
 
@@ -76,5 +76,13 @@ Exemplo do segundo arquivo de saída, com os números de comentários de cada ti
 
 ## Limitações e observações
 
-- O software pode apresentar dificuldades na análise de textos idiomas diferentes do inglês.
+- O léxico utilizado pelo método VADER é baseado no idioma inglês e pode não gerar resultados aceitáveis para outros idiomas.
 - A metodologia não é livre de falhas, e o valor calculado pode não corresponder adequadamente com o texto analisado em alguns casos.
+
+
+## Possibilidades futuras
+
+- Adaptar a metodologia para outros idiomas.
+- Permitir a inserção de palavras-chave com operadores lógicos.
+- Permitir escolher a metodologia utilizada dentre outras opções populares.
+
