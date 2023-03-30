@@ -90,7 +90,7 @@ def main():
 
     for files in os.listdir(caminho_entrada):
         if files.endswith(".csv"):
-            ano = files[3:10]
+            ano = files.replace(".csv","")
             
             caminho = open(caminho_entrada + "/" + files, "r")
             arquivo = csv.DictReader(caminho)
@@ -124,9 +124,7 @@ def main():
                     if len(''.join(b).strip('\n').strip(' ')) == 0:
                         continue
                     else:
-                        tex = '\n'.join(b)
-                    
-                        data = datetime.datetime.fromtimestamp(int(row['data'])) 
+                        tex = '\n'.join(b) 
 
                         ss = sia.polarity_scores(tex)
                         valor_vader = ss["compound"]
@@ -150,7 +148,6 @@ def main():
 
             media = soma_sentimento / (nneutro+nruim+nbom) if (nneutro+nruim+nbom) else 0
             historico.append({'ano': ano, 'nbom': nbom, 'nneutro': nneutro, 'nruim': nruim , 'media': media})
-            print(historico)
 
         
     with open(caminho_saida + '/sentimento_mes.csv', 'w', encoding='UTF8', newline='') as f:
