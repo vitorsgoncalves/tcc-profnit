@@ -17,7 +17,9 @@ Trata-se de uma ferramenta simplificada para realização de análise de sentime
 
 Se você utiliza sistemas operacionais Windows ou Linux em arquitetura X64, foram criados executáveis que podem ser baixados e executados diretamente, a partir do link abaixo, sem a necessidade de conhecimentos técnicos específicos:
 
-(link a ser definido)
+https://github.com/vitorsgoncalves/tcc-profnit/releases/tag/v0.1-alpha
+
+Na página acima, você deve baixar o arquivo identificado no nome com sua plataforma. Junto da do software, é fornecido um arquivo zip contendo alguns arquivos de exemplo, para facilitar a realização de testes.
 
 Caso utilize um sistema diferente, ou o procedimento acima não funcione, siga as instruções abaixo:
 
